@@ -147,7 +147,7 @@ export default class AlgorandRPC {
       const txn = algosdk.makeAssetTransferTxnWithSuggestedParamsFromObject({
         sender:keyPair.addr, // sender
         receiver:keyPair.addr, // receiver
-        assetIndex:628958865,
+        assetIndex:628958865, // Replace with Asset ID
         amount:0,
         note:message,
         suggestedParams:params
